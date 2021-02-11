@@ -37,7 +37,7 @@ const portfolio=[
     {   
         title:"Camara Gastronomica de Quilmes",
         type:"institucional",
-        desc:"Hicmos una pagina para el armado de un aestrucuroa muy linda",
+        desc:"Pagina institucional, con adminsitracion de eventos y socios. Primera etapa de una de un proyecto en escala que busca agrupar agentes gastronomicos, compartiendo información para poder mejorar condiciones de negociacion con proveedores",
         link:"https://camaraquilmes.netlify.app",
         img:camara,
         icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:1, sass:1, js:0, google:1 },
@@ -47,7 +47,7 @@ const portfolio=[
     {   
         title:"La Galera Market",
         type:"E-commerce",
-        desc:"Hicmos una pagina para el armado de un aestrucuroa muy linda",
+        desc:"E-comerce armado para emprendimiento de productos deli. En la mismsa se trabajo en poder agregar productos facilmentne al carrito y poder visualizar las cantidad en la grilla de productos sin tener que acceder al carrito",
         link:"https://lagalera.netlify.app",
         img:lagalera,
         icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:0, sass:1, js:0 , google:1 },
@@ -57,7 +57,7 @@ const portfolio=[
     {   
         title:"Distribuidora Renova",
         type:"Comercial",
-        desc:"Hicmos una pagina para el armado de un aestrucuroa muy linda",
+        desc:"Se armo una pagina del tipo comercial birndadno información de lista de precios. Se hizo la conexion a traves de Node.js al sistema de gestion utilizado en la empresa basado en SQL server. ",
         link:"https://www.distribuidorarenova.com.ar",
         img:renova,
         icons:{html:1, css:1, react:0, node:1, bootstrap:1, mysql:1, firebase:0, sass:0, js:1 },
@@ -68,7 +68,7 @@ const portfolio=[
     {   
         title:"Libreria 770",
         type:"Comercial",
-        desc:"Hicmos una pagina para el armado de un aestrucuroa muy linda",
+        desc:"Pagina comercial de libreria. se armaron secciones de ofertas de prodcutos puntuales para diferentes tipos de clientes",
         link:"https://www.libreria770.com",
         img:libreria,
         icons:{html:1, css:1, react:0, node:0, bootstrap:1, mysql:0, firebase:0, sass:0, js:1 },
@@ -78,7 +78,7 @@ const portfolio=[
     {   
         title:"Polo Sales",
         type:"Rapid prototyping",
-        desc:"Hicmos una pagina para el armado de un aestrucuroa muy linda",
+        desc:"Prototipo funcional para plataforma de remate de caballos. Se busco entregar un producto rapida, para corroborar demanda del mismo e iterar la verison",
         link:"https://polosales.netlify.app",
         img:polosales,
         icons:{html:1, css:1, react:0, node:0, bootstrap:1, mysql:0, firebase:0, sass:0, js:1 },
@@ -88,7 +88,7 @@ const portfolio=[
     {   
         title:"Almacen de Productores",
         type:"Web design",
-        desc:"Hicmos una pagina para el armado de un aestrucuroa muy linda",
+        desc:"Showroom virtual de productos directo de prodcutores. Se hizo foco en la estetica de la presentacion del producto, en la marca y branding",
         link:"https://www.behance.net/gallery/94639591/Almacen-de-Productores",
         img:almacen,
         icons:{html:1, css:1, react:0, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:1 },
@@ -98,7 +98,7 @@ const portfolio=[
     {   
         title:"Que Hacemos Hoy",
         type:"Prototyping",
-        desc:"Hicmos una pagina para el armado de un aestrucuroa muy linda",
+        desc:"Prototipo funcional de apliacion de eventos culturales",
         link:"https://www.behance.net/gallery/96068307/QueHacemosHoy",
         img:quehacemoshoy,
         icons:{html:1, css:1, react:0, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:1 },
