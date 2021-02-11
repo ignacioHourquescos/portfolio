@@ -1,0 +1,104 @@
+  
+@import "../../index.scss";
+
+
+
+.work{
+    height:100vh;
+    width:100%;
+    display:flex;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+
+    .left{
+        z-index:3;
+        background: linear-gradient( rgb(34, 34, 34)  30%, rgba(63, 63, 63, 0.376) );
+        backdrop-filter: blur(6px);
+        padding:2%;
+        padding-right:10%;
+        width:40%;
+        display:flex;
+        flex-direction:column;
+        background-color:grey;
+        justify-content:center;
+        justify-items:space-between;
+        // -webkit-clip-path: polygon(100% 0, 86% 100%, 0 100%, 0 0);
+         clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+
+
+         .go_to_page{
+             display:flex;
+             flex-direction:row;
+             align-items: center;
+             align-content:center;
+            bottom:2rem;
+            padding:0.5rem;
+            right:50%;
+            z-index:40;
+            font-family:$font2;  
+            font-size:2rem; 
+            a{
+                color:yellow;text-decoration:none;
+                margin-right:1rem;
+            }
+        }
+        h2{
+            font-family:$font1;
+            font-size:3rem;
+            margin:0;
+            padding:0;
+            color:white;
+          
+        }
+        h3{
+            font-family:$font2;  
+            font-size:2rem; 
+            margin:0;
+            padding:0;
+            color:yellow;
+        }
+        p{
+            font-family:$font3; 
+            margin:0;
+            padding:0;
+            margin-bottom:2rem;
+            color:violet;
+        }
+        
+        .tools{
+            height:4rem;
+            display:inline-flex;
+            justify-content:flex-start;
+            align-content:center;
+            align-items:center;
+            width: min-content;
+            border-radius:200px;
+            padding:0 1rem;
+            background-color: rgba(36, 36, 36, 0.918);
+            
+            svg{
+                height:2rem;
+                width:2rem;
+                margin:0.5rem;
+            }
+
+        }
+
+
+    }
+
+
+
+    .right{    
+        width:50%;
+        //background: linear-gradient( rgba(253, 253, 253, 0)  70%, rgb(251, 250, 250) );
+        height:100%;
+        contain:contain;
+
+    }
+
+
+
+
+}
