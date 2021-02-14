@@ -29,8 +29,9 @@ function App() {
         <Work project={portfolio[2]}/>
         <Work project={portfolio[4]}/>
         <Work project={portfolio[3]}/>
-        <Work project={portfolio[5]}/>
         <Work project={portfolio[6]}/>
+        <Work project={portfolio[5]}/>
+       
         <Contact/>
         <Footer/>
 
@@ -94,6 +95,7 @@ const portfolio=[
     {   
         title:{es:"Distribuidora Renova"},
         type:{es:"Comercial"},
+        desc:{es:"Se armo una pagina delgestion utilizado en la empresa basado en SQL server. "},
         desc:{es:"Se armo una pagina del tipo comercial birndadno información de lista de precios. Se hizo la conexion a traves de Node.js al sistema de gestion utilizado en la empresa basado en SQL server. "},
         link:"https://www.distribuidorarenova.com.ar",
         img:renova,

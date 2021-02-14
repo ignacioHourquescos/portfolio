@@ -46,6 +46,10 @@ const Contact = () => {
 	return ( 
         <div className="contact_form">
 
+<div className="izquierda">
+                <h2> Contactame</h2>
+            </div>
+
             <form onSubmit={sendEmail}>
 
                
@@ -53,11 +57,13 @@ const Contact = () => {
 
                 <input type="email" name="user_email" placeholder="email" />
 
-                <input name="message" placeholder="Message" />
+                <textarea className="message" name="message" placeholder="Message" />
 
                 <input className="button" type="submit" value="Send" />
-
             </form>
+
+
+
       </div>
 	);
 }

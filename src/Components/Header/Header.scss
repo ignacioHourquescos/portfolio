@@ -5,6 +5,7 @@
     height:100vh;
     width:100%;
     display:flex;
+    background-color:white;
 
     @media #{$mobile} {
 		display:block;
@@ -13,6 +14,7 @@
     .izquierda{
         width:55%;
         height:100%;
+         background-color:white;
         @media #{$mobile} {
             height:100%;
             width:100%;
@@ -72,6 +74,7 @@
     }
 
     .intro{
+        
         z-index:3;
         padding:2%;
         width:50%;

@@ -79,7 +79,7 @@ const Header = ({icons}) => {
                  </div>        
             </div>
             
-
+                   
             <div className="poligono"></div>
             {/* <div className="poligono2"></div> */}
 

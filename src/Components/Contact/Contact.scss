@@ -4,39 +4,87 @@
 .contact_form{
     height:100vh;
     width:100%;
-    background-color:black;
+    background-color:white;
+
+    display:flex;
+
+    // .izquierda{
+    //     width:49%;
+    //     height:100vh;
+    //     clip-path: polygon(0 0, 70% 0, 40% 100%, 0% 100%);
+    //     padding:0 2%;
+    //     padding-right:10%;
+    //     width:40%;
+    //     background-color:rgb(15, 15, 15);
+
+    // }
+
+    .izquierda{
+            font-family:$font1;
+            font-size:3rem;
+            
+            color:#e0844f;
+            color:rgb(226, 81, 81);
+            background-color:rgb(34, 34, 34);
+            width:50%;
+            //clip-path: polygon(0 0,100% 0,100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+            h2{
+                text-align:cetner;
+                padding:2rem 2rem;
+                margin-left:20%;
+                font-size:3rem;
+                
+            }
+
+            @media #{$mobile} {
+                font-size:2rem;
+             }
+
+    }
+
     form{
         height:100%;
+        background-color:white;
         display:flex;
         flex-direction:column;
         align-content:center;
         align-items:center;
         justify-items:center;
         justify-content:center;
-        width:100%;
+        width:50%;
         color:white;
 
 
         ::placeholder {
-            color: white;
+            color: rgb(114, 114, 114);
             opacity: 1; /* Firefox */
+            text-align:top;
           }
           
         
-        input{
+        input, textarea{
             margin:1rem;
-            background-clip: padding-box;
-            width:40%;
+            width:70%;
             background-color:transparent;
             border:none;
-            border-bottom:0.7px solid white;
+            border-bottom:0.4px solid rgb(32, 32, 32);
             font-family:$font2;
-            font-size:2rem;
-            color:rgb(39, 39, 39);
+            font-size:1.3rem;
+            color:rgb(44, 44, 44);
         }
 
         .button{
-            background-color:rgb(255, 255, 255);
+
+            border:none;
+            color:rgb(150, 44, 44);
+            padding:0.7rem 0;
+            background-image:contain;
+            background-repeat:no-repeat;
+        }
+
+        .message{
+            height:30%;
         }
     }
 
