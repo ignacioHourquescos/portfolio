@@ -8,41 +8,41 @@
     width:100%;
     display:flex;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position: right;
+    @media #{$mobile} {
+        background-size:initial;
+        width:100vw;
+       }
+
+ 
 
     .left{
         z-index:3;
-        background: linear-gradient( rgb(34, 34, 34)  30%, rgba(63, 63, 63, 0.376) );
-        backdrop-filter: blur(6px);
+        background: linear-gradient( rgb(34, 34, 34)  30%, rgba(63, 63, 63, 0.1s76) );
+        background-color:grey;
+        background:rgba(19, 19, 19, 0.829);
+        backdrop-filter: blur(4px);
         padding:2%;
         padding-right:10%;
         width:40%;
         display:flex;
         flex-direction:column;
-        background-color:grey;
         justify-content:center;
         justify-items:space-between;
-        // -webkit-clip-path: polygon(100% 0, 86% 100%, 0 100%, 0 0);
-         clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
-
-
-         .go_to_page{
-             display:flex;
-             flex-direction:row;
-             align-items: center;
-             align-content:center;
-            bottom:2rem;
-            padding:0.5rem;
-            right:50%;
-            z-index:40;
-            font-family:$font2;  
-            font-size:2rem; 
-            a{
-                color:yellow;text-decoration:none;
-                margin-right:1rem;
-            }
+        clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+        
+        @media #{$mobile} {
+            width:100%;
+            padding:2rem;  
+            background:rgba(41, 41, 41, 0.685);
+            clip-path: polygon(0 0, 100% 0, 100% 57%, 0 79%, 0 60%, 0% 50%);
+            clip-path: polygon(0 0, 100% 0, 100% 41%, 0 71%, 0 60%, 0% 50%);
+            justify-content:flex-start;
         }
+
+
+
         h2{
             font-family:$font1;
             font-size:3rem;
@@ -50,21 +50,34 @@
             margin-bottom:0.5rem;
             padding:0;
             color:white;
-          
+            @media #{$mobile} {
+                font-size:2rem;
+            }
         }
+
         h3{
             font-family:$font2;  
             font-size:2rem; 
             margin:0;
             padding:0;
+           
             color:yellow;
+            color:white;
+            @media #{$mobile} {
+                font-size:1.5rem;
+            }
         }
         p{
             font-family:$font3; 
             margin:0;
             padding:0;
-            margin-bottom:2rem;
+            padding-right:4rem;
+            
             color:rgb(224, 132, 79);
+            color:white;
+            @media #{$mobile} {
+                font-size:0.8rem;
+            }
         }
         
         .tools{
@@ -75,15 +88,55 @@
             align-items:center;
             width: min-content;
             border-radius:200px;
+            margin:1rem 0;
             padding:0 1rem;
             background-color: rgba(36, 36, 36, 0.918);
+            @media #{$mobile} {
+                height:3rem;
+                padding:0;
+            }
             
             svg{
                 height:2rem;
                 width:2rem;
                 margin:0.5rem;
+                @media #{$mobile} {
+                    height:1rem;
+                    width:1rem;
+             
+                }
             }
 
+        }
+
+        .go_to_page{
+            display:flex;
+            flex-direction:row;
+            align-items: center;
+            align-content:center;
+            bottom:2rem;
+            padding:0.5rem;
+            right:50%;
+            z-index:40;
+            font-family:$font2;  
+            font-size:1.7rem; 
+
+            @media #{$mobile} {
+               flex-direction:column;
+               align-items:flex-start;
+               justify-content: space-between;
+               justify-items:space-between;
+            }
+            a{
+               color:yellow;
+               color:white;
+               text-decoration:none;
+               margin-right:1rem;
+
+               @media #{$mobile} {
+                   margin:1rem 0;
+               }
+            }
         }
 
 
@@ -96,6 +149,10 @@
         //background: linear-gradient( rgba(253, 253, 253, 0)  70%, rgb(251, 250, 250) );
         height:100%;
         contain:contain;
+        @media #{$mobile} {
+       
+            width:0%;
+           }
 
     }
 

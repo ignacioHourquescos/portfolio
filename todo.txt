@@ -1,0 +1,9 @@
+TODO
+
+- hacer responsive el header
+- hacer responsive los works
+
+- aplicar cambio de lenguage dinamico
+- completar los textos de prpoyetos
+
+

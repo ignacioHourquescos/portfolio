@@ -11,19 +11,25 @@ import polosales from './images/polosales.png'
 import almacen from './images/almacen.png'
 import quehacemoshoy from './images/quehacemoshoy.png'
 import Footer from './Components/Footer/Footer';
+import Language from './Components/LanguageButton/Language';
+import { AppProvider } from './Context/UseAppContext'
 
 function App() {
 
+    
   return (<>
+  		<AppProvider>
         <Header/>
+        <Language/>
         <Work project={portfolio[0]}/>
         <Work project={portfolio[1]}/>
-        <Work project={portfolio[2]}/>
-        <Work project={portfolio[3]}/>
+        {/* <Work project={portfolio[2]}/>
         <Work project={portfolio[4]}/>
+        <Work project={portfolio[3]}/>
         <Work project={portfolio[5]}/>
-        <Work project={portfolio[6]}/>
+        <Work project={portfolio[6]}/> */}
         <Footer/>
+        </AppProvider>
    
 
     </>
@@ -35,9 +41,22 @@ export default App;
 
 const portfolio=[
     {   
-        title:"Camara Gastronomica de Quilmes",
-        type:"institucional",
-        desc:"Pagina institucional, con adminsitracion de eventos y socios. Primera etapa de una de un proyecto en escala que busca agrupar agentes gastronomicos, compartiendo información para poder mejorar condiciones de negociacion con proveedores",
+        title:
+            {
+                es:"Camara Gastronomica de Quilmes",
+                en:"Gastronomic Chamber of Quilmes",
+                pt:"Câmara Gastronomica de Quilmes"
+            },
+        type:{  
+                es:"Institucional", 
+                en:"Institutional",
+                pt:"Institucional"
+            },
+        desc:{  
+                es:"Primera etapa de proyecto que agrupa agentes gastronomicos con el fin de compartir información para mejorar la competitividad del sector",
+                en:"First phase of a long term plan which seekes to group gastonomic agents which share information in order to improve competitiveness",
+                pt:"Primeira etapa do projeto que reúne agentes gastronômicos com o objetivo de compartilhar informações para melhorar a competitividade do setor"
+            },
         link:"https://camaraquilmes.netlify.app",
         img:camara,
         icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:1, sass:1, js:0, google:1 },
@@ -45,9 +64,22 @@ const portfolio=[
         postion:1
     },
     {   
-        title:"La Galera Market",
-        type:"E-commerce",
-        desc:"E-comerce armado para emprendimiento de productos deli. En la mismsa se trabajo en poder agregar productos facilmentne al carrito y poder visualizar las cantidad en la grilla de productos sin tener que acceder al carrito",
+        title:
+        {
+            es:"La Galera Market",
+            en:"La Galera Market",
+            pt:"La Galera Market"
+        },
+        type:{  
+            es:"E-commerce", 
+            en:"E-commerce",
+            pt:"E-commerce"
+        },
+        desc:{  
+            es:"Diseñado centrado en el usuario que permite agregar y quitar productos de manera dinamica, y poder visualizar promociones de manera efectiva",
+            en:"User-centered desgin which allows to add or elminate products from cart, and clearly visualize specific promotions ",
+            pt:"Disenhado centrado no usuario que permite adicionar e remover produtos de forma dinâmica, e poder visualizar as promoções de forma eficaz"
+        },
         link:"https://lagalera.netlify.app",
         img:lagalera,
         icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:0, sass:1, js:0 , google:1 },

@@ -1,0 +1,22 @@
+@import "../../index.scss";
+
+.language_selection{
+    position:fixed;
+    top:1rem;
+    z-index:10;
+    background-color:rgb(0, 0, 0);
+    right:1rem;
+    display:flex;
+    justify-items:space-around;
+    button{
+        font-family:$font2;
+        font-weight:bold;
+        margin:0.5rem;
+        background-color:transparent;
+        border:0px;
+        color:white;
+        @media #{$mobile} {
+            margin:0.2rem;
+           }
+    }
+}
