@@ -43,9 +43,9 @@ const portfolio=[
     {   
         title:
             {
-                es:"Camara Gastronomica de Quilmes",
-                en:"Gastronomic Chamber of Quilmes",
-                pt:"Câmara Gastronomica de Quilmes"
+                es:"Camara Gastronomica ",
+                en:"Gastronomic Chamber ",
+                pt:"Câmara Gastronomica "
             },
         type:{  
                 es:"Institucional", 
