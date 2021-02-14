@@ -1,9 +1,11 @@
 TODO
 
-- hacer responsive el header
-- hacer responsive los works
+✅- hacer responsive el header
+✅- hacer responsive los works
+✅-aplicar cambio de lenguage dinamico
 
-- aplicar cambio de lenguage dinamico
 - completar los textos de prpoyetos
+- terminar de piulir Footer
+-agregar contact me
 
 
