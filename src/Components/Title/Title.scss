@@ -2,14 +2,111 @@
 @import "../../index.scss";
 
 .title{
-    height:100vh;
+    height:40vh;
     width:100%;
     display:flex;
     align-items: center;
     justify-content:center;
-    background-color:rgb(34, 34, 34);
+    flex-direction:column;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.3664508039543942) 0%, rgba(255,255,255,0) 5%);
+
+    // @media #{$mobile} {
+    //     clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+    //     background-color:rgb(34, 34, 34);
+    //     width:100%;
+    //     padding:0%;
+    //     height:40vh;
+    //     align-content:center;
+    //     align-items:center;
+    //     justify-content:flex-start;   
+    // }
+
+    @media #{$mobile} {
+        height:40vh;
+    }
+
    
+    h2{
+        font-family: $font1;
+        font-size:3.5rem;
+        color:#292929b6;
+        @media #{$mobile} {
+            padding:0
+        }
+    }
 
 
+}
 
+.downArrow{
+
+	bottom: 45%;
+	left: 50%;
+}
+.bounce {
+	-moz-animation: bounce 1s infinite;
+	-webkit-animation: bounce 1s infinite;
+	animation: bounce 1s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/* Demo Purpose Only*/
+.demo {
+  font-family: 'Raleway', sans-serif;
+	color:#fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+.demo a{
+  font-family: 'Raleway', sans-serif;
+color: #2ecc71;		
 }

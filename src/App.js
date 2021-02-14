@@ -13,7 +13,7 @@ import quehacemoshoy from './images/quehacemoshoy.png'
 import Footer from './Components/Footer/Footer';
 import Language from './Components/LanguageButton/Language';
 import Contact from './Components/Contact/Contact';
-// import Title from './Components/Title/Title';
+ import Title from './Components/Title/Title';
 import { AppProvider } from './Context/UseAppContext'
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
   return (<>
   		<AppProvider>
         <Header/>
-        {/* <Title/> */}
         <Language/>
+        <Title/>
         <Work project={portfolio[0]}/>
         <Work project={portfolio[1]}/>
         <Work project={portfolio[2]}/>

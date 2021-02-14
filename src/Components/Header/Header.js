@@ -39,8 +39,8 @@ const Header = ({icons}) => {
                     <div className="go_to_page"> <a href="https://www.behance.net/ignaciohourquescos"><FaBehance color="white"/></a></div>
                     <div className="go_to_page"> <a href="https://github.com/ignacioHourquescos"><FaGithub color="white"/></a></div>               
 
-                    <p>Portfolio</p>
-                    <img src={flechaabajo} width={"50%"}></img>  
+                    {/* <p>Portfolio</p>
+                    <img src={flechaabajo} width={"50%"}></img>   */}
                  </div>   
             </div>
        
@@ -73,10 +73,7 @@ const Header = ({icons}) => {
                     <div className="go_to_page"> <a href="https://www.behance.net/ignaciohourquescos"><FaBehance color="white"/></a></div>
                     <div className="go_to_page"> <a href="https://github.com/ignacioHourquescos"><FaGithub color="white"/></a></div>               
                 </div>
-                <div className="portfolio">
-                    <p>Portfolio</p>
-                    <img src={flechaabajo} width={"50%"}></img>  
-                 </div>        
+k  
             </div>
             
                    

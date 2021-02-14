@@ -9,6 +9,10 @@
     display:flex;
     justify-items:space-around;
     border-radius:5px;
+    @media #{$mobile} {
+        top:1rem;
+        right:1rem;
+       }
     button{
         font-family:$font2;
         font-weight:bold;
