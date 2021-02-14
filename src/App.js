@@ -12,6 +12,7 @@ import almacen from './images/almacen.png'
 import quehacemoshoy from './images/quehacemoshoy.png'
 import Footer from './Components/Footer/Footer';
 import Language from './Components/LanguageButton/Language';
+// import Title from './Components/Title/Title';
 import { AppProvider } from './Context/UseAppContext'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   return (<>
   		<AppProvider>
         <Header/>
+        {/* <Title/> */}
         <Language/>
         <Work project={portfolio[0]}/>
         <Work project={portfolio[1]}/>

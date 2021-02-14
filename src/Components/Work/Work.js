@@ -32,20 +32,20 @@ const Work = ({project}) => {
                     {languageSelection === 'Es'?   
                         <>
                             <h2>{project.title.es}</h2>	
-	        		        <h3>{project.type.es}</h3>
+	        		        {/* <h3>{project.type.es}</h3> */}
 	        		        <p>{project.desc.es}</p>
                         </>
                     :
                         languageSelection === 'En'?   
                             <>
                                 <h2>{project.title.en}</h2>	
-	        		            <h3>{project.type.en}</h3>
+	        		            {/* <h3>{project.type.en}</h3> */}
 	        		            <p>{project.desc.en}</p>
                             </>
                             :
                             <>
                                 <h2>{project.title.pt}</h2>	
-	        		            <h3>{project.type.pt}</h3>
+	        		            {/* <h3>{project.type.pt}</h3> */}
 	        		            <p>{project.desc.pt}</p>
                             </>                           
                     }
@@ -72,7 +72,7 @@ const Work = ({project}) => {
                                     <a>Ir a projeto</a>
                         }
 
-                        <FaArrowCircleRight color={"yellow"}/>
+                        {/* <FaArrowCircleRight color={"yellow"}/> */}
                     </a>
 	        	</div>
                 
