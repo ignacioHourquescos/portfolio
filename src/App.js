@@ -23,11 +23,11 @@ function App() {
         <Language/>
         <Work project={portfolio[0]}/>
         <Work project={portfolio[1]}/>
-        {/* <Work project={portfolio[2]}/>
+        <Work project={portfolio[2]}/>
         <Work project={portfolio[4]}/>
         <Work project={portfolio[3]}/>
         <Work project={portfolio[5]}/>
-        <Work project={portfolio[6]}/> */}
+        <Work project={portfolio[6]}/>
         <Footer/>
         </AppProvider>
    
@@ -87,9 +87,9 @@ const portfolio=[
         postion:0
     },
     {   
-        title:"Distribuidora Renova",
-        type:"Comercial",
-        desc:"Se armo una pagina del tipo comercial birndadno información de lista de precios. Se hizo la conexion a traves de Node.js al sistema de gestion utilizado en la empresa basado en SQL server. ",
+        title:{es:"Distribuidora Renova"},
+        type:{es:"Comercial"},
+        desc:{es:"Se armo una pagina del tipo comercial birndadno información de lista de precios. Se hizo la conexion a traves de Node.js al sistema de gestion utilizado en la empresa basado en SQL server. "},
         link:"https://www.distribuidorarenova.com.ar",
         img:renova,
         icons:{html:1, css:1, react:0, node:1, bootstrap:1, mysql:1, firebase:0, sass:0, js:1 },
@@ -98,9 +98,9 @@ const portfolio=[
     },
 
     {   
-        title:"Libreria 770",
-        type:"Comercial",
-        desc:"Pagina comercial de libreria. se armaron secciones de ofertas de prodcutos puntuales para diferentes tipos de clientes",
+        title:{es:"Libreria 770"},
+        type:{es:"Comercial"},
+        desc:{es:"Pagina comercial de libreria. se armaron secciones de ofertas de prodcutos puntuales para diferentes tipos de clientes"},
         link:"https://www.libreria770.com",
         img:libreria,
         icons:{html:1, css:1, react:0, node:0, bootstrap:1, mysql:0, firebase:0, sass:0, js:1 },
@@ -108,9 +108,9 @@ const portfolio=[
         postion:0
     },
     {   
-        title:"Polo Sales",
-        type:"Rapid prototyping",
-        desc:"Prototipo funcional para plataforma de remate de caballos. Se busco entregar un producto rapida, para corroborar demanda del mismo e iterar la verison",
+        title:{es:"Polo Sales"},
+        type:{es:"Rapid prototyping"},
+        desc:{es:"Prototipo funcional para plataforma de remate de caballos. Se busco entregar un producto rapida, para corroborar demanda del mismo e iterar la verison"},
         link:"https://polosales.netlify.app",
         img:polosales,
         icons:{html:1, css:1, react:0, node:0, bootstrap:1, mysql:0, firebase:0, sass:0, js:1 },
@@ -118,9 +118,9 @@ const portfolio=[
         postion:0
     },
     {   
-        title:"Almacen de Productores",
-        type:"Web design",
-        desc:"Showroom virtual de productos directo de prodcutores. Se hizo foco en la estetica de la presentacion del producto, en la marca y branding",
+        title:{es:"Almacen de Productores"},
+        type:{es:"Web design"},
+        desc:{es:"Showroom virtual de productos directo de prodcutores. Se hizo foco en la estetica de la presentacion del producto, en la marca y branding"},
         link:"https://www.behance.net/gallery/94639591/Almacen-de-Productores",
         img:almacen,
         icons:{html:1, css:1, react:0, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:1 },
@@ -128,9 +128,9 @@ const portfolio=[
         postion:0
     },
     {   
-        title:"Que Hacemos Hoy",
-        type:"Prototyping",
-        desc:"Prototipo funcional de apliacion de eventos culturales",
+        title:{es:"Que Hacemos Hoy"},
+        type:{es:"Prototyping"},
+        desc:{es:"Prototipo funcional de apliacion de eventos culturales"},
         link:"https://www.behance.net/gallery/96068307/QueHacemosHoy",
         img:quehacemoshoy,
         icons:{html:1, css:1, react:0, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:1 },

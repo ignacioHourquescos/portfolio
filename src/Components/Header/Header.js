@@ -20,7 +20,7 @@ const Header = ({icons}) => {
                     ?
                         <>
                             <h2>Hola! Soy Ignacio</h2>	
-                            <h3>Soy una mezcla de varios mundos. emprendimientos, negocios, diseño y programacion</h3>
+                            <h3>Combino tres mundos: Emprendimientos, diseño y programacion.</h3>
                         </>
                     : languageSelection === "En"
                         ? 
@@ -31,7 +31,7 @@ const Header = ({icons}) => {
                         : 
                             <>
                                 <h2>Oi! Sou Ignacio</h2>	
-                                <h3>Sou desarollador, dischadore e meprdendor</h3>
+                                <h3>Sou desarollador, disenhador e emprendendor</h3>
                             </>
                 }   
                 <div className="tools">
