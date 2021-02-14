@@ -6,6 +6,6 @@ TODO
 
 - completar los textos de prpoyetos
 - terminar de piulir Footer
--agregar contact me
-
+- agregar contact me
+- definir dominio
 

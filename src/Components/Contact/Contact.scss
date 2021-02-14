@@ -1,0 +1,47 @@
+
+@import "../../index.scss";
+
+.contact_form{
+    height:100vh;
+    width:100%;
+    background-color:black;
+    form{
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        align-content:center;
+        align-items:center;
+        justify-items:center;
+        justify-content:center;
+        width:100%;
+        color:white;
+
+
+        ::placeholder {
+            color: white;
+            opacity: 1; /* Firefox */
+          }
+          
+        
+        input{
+            margin:1rem;
+            background-clip: padding-box;
+            width:40%;
+            background-color:transparent;
+            border:none;
+            border-bottom:0.7px solid white;
+            font-family:$font2;
+            font-size:2rem;
+            color:rgb(39, 39, 39);
+        }
+
+        .button{
+            background-color:rgb(255, 255, 255);
+        }
+    }
+
+    
+
+
+
+}

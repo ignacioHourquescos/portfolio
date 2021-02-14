@@ -20,7 +20,7 @@ const Header = ({icons}) => {
                     ?
                         <>
                             <h2>Hola! Soy Ignacio</h2>	
-                            <h3>Soy developer, diseñador y emprendedor</h3>
+                            <h3>developer, diseñador y emprendedor</h3>
                         </>
                     : languageSelection === "En"
                         ? 
@@ -54,7 +54,7 @@ const Header = ({icons}) => {
                     ?
                         <>
                             <h2>Hola! Soy Ignacio</h2>	
-                            <h3>Un explorador del mundo digital, de emprendimientos, diseño y programacion</h3>
+                            <h3> de emprendimientos, diseño y programacion</h3>
                         </>
                     : languageSelection === "En"
                         ? 

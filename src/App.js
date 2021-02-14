@@ -12,6 +12,7 @@ import almacen from './images/almacen.png'
 import quehacemoshoy from './images/quehacemoshoy.png'
 import Footer from './Components/Footer/Footer';
 import Language from './Components/LanguageButton/Language';
+import Contact from './Components/Contact/Contact';
 // import Title from './Components/Title/Title';
 import { AppProvider } from './Context/UseAppContext'
 
@@ -30,7 +31,9 @@ function App() {
         <Work project={portfolio[3]}/>
         <Work project={portfolio[5]}/>
         <Work project={portfolio[6]}/>
+        <Contact/>
         <Footer/>
+
         </AppProvider>
    
 
