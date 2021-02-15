@@ -8,6 +8,7 @@ import lagalera from './images/lagalera.png';
 import renova from './images/renova.png';
 import libreria from './images/libreria770.png'
 import polosales from './images/polosales.png'
+import pedidos from './images/sistemaDePedidos.png'
 import almacen from './images/almacen.png'
 import quehacemoshoy from './images/quehacemoshoy.png'
 import Footer from './Components/Footer/Footer';
@@ -27,10 +28,11 @@ function App() {
         <Work project={portfolio[0]}/>
         <Work project={portfolio[1]}/>
         <Work project={portfolio[2]}/>
-        <Work project={portfolio[4]}/>
         <Work project={portfolio[3]}/>
-        <Work project={portfolio[6]}/>
+        <Work project={portfolio[4]}/>
         <Work project={portfolio[5]}/>
+        <Work project={portfolio[6]}/>
+        <Work project={portfolio[7]}/>
        
         <Contact/>
         <Footer/>
@@ -54,9 +56,9 @@ const portfolio=[
                 pt:"Câmara Gastronomica "
             },
         type:{  
-                es:"Institucional", 
-                en:"Institutional",
-                pt:"Institucional"
+                es:"web Design", 
+                en:"web Design",
+                pt:"web Design"
             },
         desc:{  
                 es:"Primera etapa de proyecto que agrupa agentes gastronomicos con el fin de compartir información para mejorar la competitividad del sector",
@@ -82,9 +84,9 @@ const portfolio=[
             pt:"E-commerce"
         },
         desc:{  
-            es:"Diseñado centrado en el usuario que permite agregar y quitar productos de manera dinamica, y poder visualizar promociones de manera efectiva",
+            es:"Diseño centrado en el usuario que permite agregar y quitar productos de manera dinamica, y poder visualizar promociones de manera efectiva",
             en:"User-centered desgin which allows to add or elminate products from cart, and clearly visualize specific promotions ",
-            pt:"Disenhado centrado no usuario que permite adicionar e remover produtos de forma dinâmica, e poder visualizar as promoções de forma eficaz"
+            pt:"Disenho centrado no usuario que permite adicionar e remover produtos de forma dinâmica, e poder visualizar as promoções de forma eficaz"
         },
         link:"https://lagalera.netlify.app",
         img:lagalera,
@@ -93,11 +95,19 @@ const portfolio=[
         postion:0
     },
     {   
-        title:{es:"Distribuidora Renova"},
-        type:{es:"Comercial"},
-        desc:{es:"Se armo una pagina delgestion utilizado en la empresa basado en SQL server. "},
-        desc:{es:"Se armo una pagina del tipo comercial birndadno información de lista de precios. Se hizo la conexion a traves de Node.js al sistema de gestion utilizado en la empresa basado en SQL server. "},
-        link:"https://www.distribuidorarenova.com.ar",
+        title:
+        {
+            es:"Distribuidora autopartes",
+            en:"Car Wholesaler",
+            pt:"Distribuidor autopeças"
+        },
+        type:{es:"web App"},
+        desc:{  
+            es:"A partir de un sistema de gestión en SQL, se hizo una conexión via Node.js, generando una vista web para mostrar precios y stock de manera dinámica",
+            en:"Web view for ERP software based on SQL. Using Node.js a friendly interface was built for clients to access key information",
+            pt:"A partir de um sistema de gestão em SQL, se fez uma conexão via Node.js, gerando uma vista web para mostrar preços e estoque de forma dinâmica"
+        },       
+        link:"https://listasrenova.netlify.app/views/html/indexofertas.html",
         img:renova,
         icons:{html:1, css:1, react:0, node:1, bootstrap:1, mysql:1, firebase:0, sass:0, js:1 },
         color: "orange",
@@ -105,9 +115,18 @@ const portfolio=[
     },
 
     {   
-        title:{es:"Libreria 770"},
-        type:{es:"Comercial"},
-        desc:{es:"Pagina comercial de libreria. se armaron secciones de ofertas de prodcutos puntuales para diferentes tipos de clientes"},
+        title:
+        {
+            es:"Librería Mayorista",
+            en:"Office supplies Wholesaler",
+            pt:"Livrería de atacado "
+        },
+        type:{es:"Web Design"},
+        desc:{  
+            es:"Web comercial para librería. Se armaron secciones de ofertas de productos puntuales para diferentes tipos de clientes",
+            en:"Commercial web for office supplies company. Specific section were designed for different tpo of clients",
+            pt:"Site comercial para livraría. Seções de ofertas de produtos específicos foram disenhadas para diferentes tipos de clientes"
+        },
         link:"https://www.libreria770.com",
         img:libreria,
         icons:{html:1, css:1, react:0, node:0, bootstrap:1, mysql:0, firebase:0, sass:0, js:1 },
@@ -115,9 +134,19 @@ const portfolio=[
         postion:0
     },
     {   
-        title:{es:"Polo Sales"},
+        title:
+        {
+            es:"Polo Sales",
+            en:"Polo Sales",
+            pt:"Polo Sales"
+        },
+ 
         type:{es:"Rapid prototyping"},
-        desc:{es:"Prototipo funcional para plataforma de remate de caballos. Se busco entregar un producto rapida, para corroborar demanda del mismo e iterar la verison"},
+        desc:{  
+            es:"Prototipo funcional de plataforma de remate de caballos. Se busco generar un producto rápido, para corroborar demanda del mismo e iterar la version",
+            en:"Polo horses auctioning rapid prototype. aimed to rapidly generate a version, in order to test demand and iterate it",
+            pt:"Protótipo funcional de plataforma de leilão de cavalos. O objetivo era gerar um produto rápido, para confirmar a demanda e logo iterar a versão"
+        },
         link:"https://polosales.netlify.app",
         img:polosales,
         icons:{html:1, css:1, react:0, node:0, bootstrap:1, mysql:0, firebase:0, sass:0, js:1 },
@@ -125,19 +154,62 @@ const portfolio=[
         postion:0
     },
     {   
-        title:{es:"Almacen de Productores"},
+        title:
+        {
+            es:"Sistema de Pedidos",
+            en:"Micro logisitcs",
+            pt:"Sistema de Peididos"
+        },
+        type:{es:"UX/UI Prototyping"},
+        desc:{  
+            es:"Prototipo funcional para sistema de pedidos logísticos de distribuidora mayorista",
+            en:"Prototype to manage intern wholesaler logistics ",
+            pt:"Protótipo funcional para o sistema de pedidos de logística de distribuidor de atacado"
+        },
+        link:"https://www.behance.net/gallery/94688655/_",
+        img:pedidos,
+        icons:{html:1, css:1, react:0, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:1 },
+        color: "grey",
+        postion:0
+    },
+
+
+    {   
+        title:
+        {
+            es:"Almacen de Productores",
+            en:"Almacen de Productores",
+            pt:"Almacen de Productores"
+        },
+
         type:{es:"Web design"},
-        desc:{es:"Showroom virtual de productos directo de prodcutores. Se hizo foco en la estetica de la presentacion del producto, en la marca y branding"},
+        desc:{  
+            es:"Showroom virtual de productos regionales. Se hizo foco en la estética de la presentacién del producto, marca y branding",
+            en:"Virtual showroom for dely prodcuts. Aimed to develop unique design & branding",
+            pt:"Showroom virtual de produtos regionais. O foco foi feito na estética da apresentação do produto, marca e branding"
+        },
         link:"https://www.behance.net/gallery/94639591/Almacen-de-Productores",
         img:almacen,
         icons:{html:1, css:1, react:0, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:1 },
         color: "grey",
         postion:0
     },
+
+
     {   
-        title:{es:"Que Hacemos Hoy"},
-        type:{es:"Prototyping"},
-        desc:{es:"Prototipo funcional de apliacion de eventos culturales"},
+        title:
+        {
+            es:"Que Hacemos Hoy",
+            en:"Que Hacemos Hoy",
+            pt:"Que Hacemos Hoy"
+        },
+
+        type:{es:"UX/UI Prototyping"},
+        desc:{  
+            es:"Prototipo funcional de apliación de información de eventos culturales",
+            en:"App prototype for cultural events and gatherings",
+            pt:"Showroom virtual de produtos regionais. O foco foi feito na estética da apresentação do produto, marca e branding"
+        },
         link:"https://www.behance.net/gallery/96068307/QueHacemosHoy",
         img:quehacemoshoy,
         icons:{html:1, css:1, react:0, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:1 },

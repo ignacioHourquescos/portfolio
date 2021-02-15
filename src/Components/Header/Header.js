@@ -6,16 +6,22 @@ import flechaabajo from '../../images/flechaabajo.png'
 import yoyo2 from '../../images/yoyo2.png'
 import yoyo2mobile from '../../images/yoyo2_mobile.png'
 import useAppContext from '../../Context/UseAppContext';
-import avion from '../../images/avion.png'
+import avion from '../../images/avion3.png'
 
 const Header = ({icons}) => { 
 
     const { languageSelection } = useAppContext();
+
+    const me = [
+        "Busco combinar innovación, lgica y el diseño para crear productos digitales de alto valor agregado. Siempre abierto a nuevos desafios!",
+        "I look forward to combine innovation, logic and design to create highly value added digital products. Open to new challenges!",
+        "Procuro combinar inovação, lógica e disenho para criar produtos digitais de alto valor agregado. Sempre Aberto a novos desafios!"
+    ]
 	
 	return ( 
         <div className = "me" >
             <div className="paper_plane">
-        <img src={avion} width={"100%"}></img>  
+        <img src={avion} width={"50%"}></img>  
             </div>
  
             <div className="intro_mobile">
@@ -23,18 +29,18 @@ const Header = ({icons}) => {
                     ?
                         <>
                             <h2>Hola! Soy Ignacio</h2>	
-                            <h3>developer, diseñador y emprendedor</h3>
+                            <h3>{me[0]}</h3>
                         </>
                     : languageSelection === "En"
                         ? 
                             <>
                                 <h2>Hi! I am Ignacio</h2>	
-                                <h3>I am a developer, desginer and entrepeneur</h3>
+                                <h3>{me[1]}</h3>
                             </>
                         : 
                             <>
                                 <h2>Oi! Sou Ignacio</h2>	
-                                <h3>Sou desarollador, disenhador e emprendendor</h3>
+                                <h3>{me[2]}</h3>
                             </>
                 }   
                 <div className="tools">
@@ -57,18 +63,18 @@ const Header = ({icons}) => {
                     ?
                         <>
                             <h2>Hola! Soy Ignacio</h2>	
-                            <h3> de emprendimientos, diseño y programacion</h3>
+                            <h3>{me[0]}</h3>
                         </>
                     : languageSelection === "En"
                         ? 
                             <>
                                 <h2>Hi! I am Ignacio</h2>	
-                                <h3>I am a developer, desginer and entrepeneur</h3>
+                                <h3>{me[1]}</h3>
                             </>
                         : 
                             <>
                                 <h2>Oi! Sou Ignacio</h2>	
-                                <h3>Sou desarollador, dischadore e meprdendor</h3>
+                                <h3>{me[2]}</h3>
                             </>
                 }   
                 <div className="tools">

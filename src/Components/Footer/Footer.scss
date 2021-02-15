@@ -3,6 +3,7 @@
 
 .footer{
     height:30vh;
+
     width:100%;
     display:flex;
     align-items: center;
@@ -16,6 +17,9 @@
     @media #{$mobile} {
         flex-direction:column;
         margin:0;
+        height:100vh;
+        justify-content:center;
+        justify-items:center;
        }
 
     p{
@@ -23,10 +27,4 @@
         color:grey;
     }
 
-}
-
-.clone{
-    @media #{$mobile} {
-        display:none;
-       }
 }

@@ -9,10 +9,13 @@ const Footer = ({icons}) => {
             <p className="copyright">© 2021 Ignacio Hourquescos</p>
  
             <p className="mail">ihourquescos@gmail.com</p>
-            <p className="clone">Liked this template? Clone it!</p>
+            <p className="clone">Liked this template? <a href="https://github.com/ignacioHourquescos/portfolio" style={{color:"yellow"}}>Clone it!</a></p>
+      
         </div>
 	);
 }
 
 export default Footer;
+
+
 

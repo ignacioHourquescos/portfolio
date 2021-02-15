@@ -22,6 +22,8 @@
             flex-direction:column;
             align-content:flex-start;
             align-items:flex-start;
+            justify-content:center;
+            justify-items:center;
             color:#e0844f;
             color:#FCA311;
             background-color:rgb(34, 34, 34);
@@ -39,12 +41,22 @@
             }
             h2{
                 text-align:cetner;
-                padding:2rem 2rem;
+                padding-top:2rem;
+                padding-bottom:0;
+                margin:0;
                 font-size:3rem;
                 @media #{$mobile} {
                     padding:0
                 }
                 
+            }
+
+            h3{
+                font-family:$font2;
+                font-size: 1.5rem;
+                color:white;
+                width:50%;
+                padding:0;
             }
 
             @media #{$mobile} {
@@ -53,7 +65,7 @@
             
             img{
                 z-index:20;
-                height:40%;
+                height:30%;
                 
             @media #{$mobile} {
                 height:20%;

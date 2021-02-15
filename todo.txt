@@ -4,8 +4,9 @@ TODO
 ✅- hacer responsive los works
 ✅-aplicar cambio de lenguage dinamico
 
-🌗- completar los textos de prpoyetos
-🌗- terminar de piulir Footer
+✅-  completar los textos de prpoyetos
+✅- terminar de piulir Footer
 ✅- agregar contact me
 🌗- definir dominio
-
+ alert del contact
+ mejorar imagenes
