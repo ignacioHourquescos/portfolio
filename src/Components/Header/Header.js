@@ -6,7 +6,7 @@ import flechaabajo from '../../images/flechaabajo.png'
 import yoyo2 from '../../images/yoyo2.png'
 import yoyo2mobile from '../../images/yoyo2_mobile.png'
 import useAppContext from '../../Context/UseAppContext';
-
+import avion from '../../images/avion.png'
 
 const Header = ({icons}) => { 
 
@@ -14,6 +14,9 @@ const Header = ({icons}) => {
 	
 	return ( 
         <div className = "me" >
+            <div className="paper_plane">
+        <img src={avion} width={"100%"}></img>  
+            </div>
  
             <div className="intro_mobile">
                 { languageSelection === "Es" 

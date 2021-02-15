@@ -256,3 +256,12 @@
     }
 }
 
+.paper_plane{
+    position:absolute;
+    bottom:0;
+    left:40%;
+    z-index:20;
+    @media #{$mobile} {
+       display:none;
+     }
+}
