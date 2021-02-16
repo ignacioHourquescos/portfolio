@@ -13,7 +13,7 @@ const Header = ({icons}) => {
     const { languageSelection } = useAppContext();
 
     const me = [
-        "Busco combinar innovación, lgica y el diseño para crear productos digitales de alto valor agregado. Siempre abierto a nuevos desafios!",
+        "Busco combinar innovación, lógica y el diseño para crear productos digitales de alto valor agregado. Siempre abierto a nuevos desafios!",
         "I look forward to combine innovation, logic and design to create highly value added digital products. Open to new challenges!",
         "Procuro combinar inovação, lógica e disenho para criar produtos digitais de alto valor agregado. Sempre Aberto a novos desafios!"
     ]
