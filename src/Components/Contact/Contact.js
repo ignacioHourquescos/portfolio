@@ -8,7 +8,7 @@ import useAppContext from '../../Context/UseAppContext';
 const Contact = () => { 
 
     const { languageSelection } = useAppContext();
-    const [messageSent, setMessageSent] = useState(true);
+    const [messageSent, setMessageSent] = useState(false);
    const sendEmail = (e) => {
         e.preventDefault();
     

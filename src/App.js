@@ -15,7 +15,9 @@ import Footer from './Components/Footer/Footer';
 import Language from './Components/LanguageButton/Language';
 import Contact from './Components/Contact/Contact';
  import Title from './Components/Title/Title';
+ import yo from './images/yoyo2.png';
 import { AppProvider } from './Context/UseAppContext'
+import MetaTags from 'react-meta-tags';
 
 function App() {
 
@@ -25,6 +27,12 @@ function App() {
         <Header/>
         <Language/>
         <Title/>
+        <MetaTags>
+            <title>Ignacio Hourquescos</title>
+            <meta name="description" content="Portfolio" />
+            <meta property="og:title" content="Ignacio Hourquescos" />
+            <meta property="og:image" content={yo} />
+          </MetaTags>
         <Work project={portfolio[0]}/>
         <Work project={portfolio[1]}/>
         <Work project={portfolio[2]}/>
