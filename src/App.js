@@ -1,5 +1,6 @@
 
 import './App.css';
+import MetaTags from 'react-meta-tags';
 import "animate.css/animate.min.css";
 import Work from './Components/Work/Work';
 import Header from './Components/Header/Header';
@@ -17,7 +18,7 @@ import Contact from './Components/Contact/Contact';
  import Title from './Components/Title/Title';
  import yo from './images/yoyo2.png';
 import { AppProvider } from './Context/UseAppContext'
-import MetaTags from 'react-meta-tags';
+
 
 function App() {
 
