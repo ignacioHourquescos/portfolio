@@ -2,7 +2,6 @@ import './Header.scss';
 import { FaLinkedin} from 'react-icons/fa';
 import { FaGithub} from 'react-icons/fa';
 import { FaBehance} from 'react-icons/fa';
-import flechaabajo from '../../images/flechaabajo.png'
 import yoyo2 from '../../images/yoyo2.png'
 import yoyo2mobile from '../../images/yoyo2_mobile.png'
 import useAppContext from '../../Context/UseAppContext';
