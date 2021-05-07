@@ -11,6 +11,8 @@ import libreria from './images/libreria770.png'
 import polosales from './images/polosales.png'
 import pedidos from './images/sistemaDePedidos.png'
 import almacen from './images/almacen.png'
+import gangadeco from './images/gangaDeco.webp'
+import elfuerte from  './images/elfuerte.webp'
 import quehacemoshoy from './images/quehacemoshoy.png'
 import Footer from './Components/Footer/Footer';
 import Language from './Components/LanguageButton/Language';
@@ -42,6 +44,8 @@ function App() {
         <Work project={portfolio[5]}/>
         <Work project={portfolio[6]}/>
         <Work project={portfolio[7]}/>
+        <Work project={portfolio[8]}/>
+        <Work project={portfolio[9]}/>
        
         <Contact/>
         <Footer/>
@@ -57,29 +61,76 @@ export default App;
 
 
 const portfolio=[
-    {   
-        title:
-            {
-                es:"Camara Gastronomica ",
-                en:"Gastronomic Chamber ",
-                pt:"Câmara Gastronomica "
-            },
-        type:{  
-                es:"web Design", 
-                en:"web Design",
-                pt:"web Design"
-            },
-        desc:{  
-                es:"Primera etapa de proyecto que agrupa agentes gastronomicos con el fin de compartir información para mejorar la competitividad del sector",
-                en:"First phase of a long term plan which seekes to group gastonomic agents which share information in order to improve competitiveness",
-                pt:"Primeira etapa do projeto que reúne agentes gastronômicos com o objetivo de compartilhar informações para melhorar a competitividade do setor"
-            },
-        link:"https://camaraquilmes.netlify.app",
-        img:camara,
-        icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:1, sass:1, js:0, google:1 },
-        color: "yellow",
-        postion:1
-    },
+   {   
+      title:
+          {
+              es:"GangaDeco",
+              en:"GangaDeco ",
+              pt:"GangaDeco "
+          },
+      type:{  
+              es:"E-commerce", 
+              en:"E-commerce",
+              pt:"E-commerce"
+          },
+      desc:{  
+              es:"E-commerce armado para tienda de articulos de bazar y decoracion",
+              en:"deco e-commerce",
+              pt:"E-commerce de produtos de decoracao"
+          },
+      link:"https://gangadeco.netlify.app",
+      img:gangadeco,
+      icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:1, sass:1, js:0, google:1, next:1, firebase:1 },
+      color: "yellow",
+      postion:1
+  },
+  {   
+   title:
+       {
+           es:"Mayorista El Fuerte",
+           en:"Mayorista El Fuerte",
+           pt:"Mayorista El Fuerte",
+       },
+   type:{  
+           es:"Web design", 
+           en:"Web design",
+           pt:"Web design"
+       },
+   desc:{  
+           es:"Web para distribuidora mayorista. Se hizo foco en el diseño de un sistema de lista de precios agiles",
+           en:"WEb design for food wholesaler. Focused on builidng a dynamic price list for clients ",
+           pt:"Disenho web para atacadista de produtos naturais. Foco em lista de precos"
+       },
+   link:"https://gangadeco.netlify.app",
+   img:elfuerte,
+   icons:{html:1, css:1, react:1, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:0, google:1, next:0, firebase:0},
+   color: "yellow",
+   postion:1
+},
+  
+   {   
+      title:
+          {
+              es:"Camara Gastronomica ",
+              en:"Gastronomic Chamber ",
+              pt:"Câmara Gastronomica "
+          },
+      type:{  
+              es:"web Design", 
+              en:"web Design",
+              pt:"web Design"
+          },
+      desc:{  
+              es:"Primera etapa de proyecto que agrupa agentes gastronomicos con el fin de compartir información para mejorar la competitividad del sector",
+              en:"First phase of a long term plan which seekes to group gastonomic agents which share information in order to improve competitiveness",
+              pt:"Primeira etapa do projeto que reúne agentes gastronômicos com o objetivo de compartilhar informações para melhorar a competitividade do setor"
+          },
+      link:"https://camaraquilmes.netlify.app",
+      img:camara,
+      icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:1, sass:1, js:0, google:1 },
+      color: "yellow",
+      postion:1
+  },
     {   
         title:
         {
@@ -99,7 +150,7 @@ const portfolio=[
         },
         link:"https://lagalera.netlify.app",
         img:lagalera,
-        icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:0, sass:1, js:0 , google:1 },
+        icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:0, sass:1, js:0 , google:1, firebase:1},
         color: "blue",
         postion:0
     },

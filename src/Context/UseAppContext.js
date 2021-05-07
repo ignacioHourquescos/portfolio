@@ -17,9 +17,6 @@ export const AppProvider = ({ children }) => {
         setLanguageSelection('Pt');
 	}
       
-
-      
-
     return (
         <AppContext.Provider value={{
 				languageSelection,

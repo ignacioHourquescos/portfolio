@@ -11,6 +11,8 @@ import { FaSass} from 'react-icons/fa';
 import { FaJs} from 'react-icons/fa';
 import { FaDatabase} from 'react-icons/fa';
 import { FaGoogle} from 'react-icons/fa';
+import { SiNextDotJs } from 'react-icons/si'
+import { SiFirebase } from 'react-icons/si'
 import { FaArrowCircleRight} from 'react-icons/fa';
 import useAppContext from '../../Context/UseAppContext';
 
@@ -60,6 +62,9 @@ const Work = ({project}) => {
                         { project.icons.js==1? <FaJs color="white"/> : ""}
                         { project.icons.mysql==1? <FaDatabase color="white"/> : ""}
                         { project.icons.google==1? <FaGoogle color="white"/> : ""}
+                        { project.icons.next==1? <SiNextDotJs color="white"/> : ""}
+                        { project.icons.firebase==1? <SiFirebase color="white"/> : ""}
+
                     </div>
                    
                     <a href={`${project.link}`} className="go_to_page"> 
