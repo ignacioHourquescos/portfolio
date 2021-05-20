@@ -78,7 +78,7 @@ const portfolio=[
               en:"deco e-commerce",
               pt:"E-commerce de produtos de decoracao"
           },
-      link:"https://gangadeco.netlify.app",
+      link:"https://gangadeco.vercel.app",
       img:gangadeco,
       icons:{html:1, css:0, react:1, node:0, bootstrap:0, mysql:0, firebase:1, sass:1, js:0, google:1, next:1, firebase:1 },
       color: "yellow",
@@ -101,7 +101,7 @@ const portfolio=[
            en:"WEb design for food wholesaler. Focused on builidng a dynamic price list for clients ",
            pt:"Disenho web para atacadista de produtos naturais. Foco em lista de precos"
        },
-   link:"https://gangadeco.vercel.app",
+   link:"https://www.mayoristaelfuerte.com",
    img:elfuerte,
    icons:{html:1, css:1, react:1, node:0, bootstrap:0, mysql:0, firebase:0, sass:0, js:0, google:1, next:0, firebase:0},
    color: "yellow",
